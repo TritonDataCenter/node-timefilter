@@ -1,0 +1,25 @@
+{
+	"name": "timefilter",
+	"description": "filter strings based on encoded timestamps",
+	"version": "1.0.0",
+	"main": "./lib/timefilter.js",
+
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/joyent/node-timefilter.git"
+	},
+
+	"dependencies": {
+		"verror": "^1.6.1"
+	},
+
+	"devDependencies": {
+		"extsprintf": "^1.3.0"
+	},
+
+	"scripts": {
+		"test": "make test"
+	},
+
+	"license": "MIT"
+}
